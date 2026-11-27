@@ -38,11 +38,12 @@ def main():
       elif choice == "3":
          show_total()
       elif choice == "4":
-         print("Au revoir !")
+         show-average()
       elif choice == "5":
-          delete_expense()
+         delete_expense()
       elif choice== "6":
-          show_average()
+         print("au revoir!")
+        break
       else:
         print("Choix invalide.")
 
