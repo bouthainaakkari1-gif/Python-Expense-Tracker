@@ -26,9 +26,9 @@ def main():
       print("1. Ajouter une depense")
       print("2. Afficher les depenses")
       print("3. Afficher le total")
-      print("4. Quitter")
-      print("5. Show average")
-      print("6. Delete an expense")
+      print("4. Show average")
+      print("5. Delete an expense")
+      print("6. Quitter"
       choice = input("Votre choix : ")
       if choice == "1":
          add_expense()
