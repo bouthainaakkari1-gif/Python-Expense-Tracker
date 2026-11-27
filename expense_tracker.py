@@ -29,6 +29,7 @@ def main():
       print("4. Quitter")
       print("5. Show average")
       print("5. Delete an expense")
+      print("6. Show average")
       choice = input("Votre choix : ")
       if choice == "1":
          add_expense()
@@ -38,13 +39,10 @@ def main():
          show_total()
       elif choice == "4":
          print("Au revoir !")
-         if choice == "5":
-          delete_expense()
-
-         break
       elif choice == "5":
-         show_average()
-      
+          delete_expense()
+      elif choice== "6":
+          show_average()
       else:
         print("Choix invalide.")
 
