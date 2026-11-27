@@ -37,14 +37,13 @@ def main():
          show_total()
       elif choice == "4":
          print("Au revoir !")
-         if choice == "5":
-          delete_expense()
+      elif choice == "5":
+         delete_expense()
 
          break
       else:
         print("Choix invalide.")
-if __name__ == "__main__":
- main()
+
 def delete_expense():
  if not expenses:
 print("No expenses to delete.")
@@ -61,3 +60,5 @@ print("No expenses to delete.")
   Deleted: {removed['description']}")
  else:
  print("Invalid expense number.")
+if __name__ == "__main__":
+ main()
